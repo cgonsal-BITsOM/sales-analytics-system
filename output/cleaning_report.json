@@ -1,0 +1,11 @@
+{
+  "version": "0.4.0",
+  "summary": {
+    "total_input": 80,
+    "invalid": 10,
+    "filtered_by_region": 0,
+    "filtered_by_amount": 0,
+    "final_count": 70,
+    "enriched": false
+  }
+}
