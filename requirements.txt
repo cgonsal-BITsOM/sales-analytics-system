@@ -1,16 +1,10 @@
-Requirements 
 
-- Python 3.10+ with standard library only
+# Core dependency
+requests>=2.31.0,<3
 
-- Directory Structure
-sales-analytics-system/
-  ├── README.md
-  ├── main.py
-  ├── utils/
-  │   ├── file_handler.py
-  │   ├── data_processor.py
-  │   └── api_handler.py
-  ├── data/
-  │   └── sales_data.txt (provided)
-  ├── output/
-  └── requirements.txt
+# Optional development tools
+# pytest>=8.0.0
+# black>=24.0.0
+# ruff>=0.4.0
+
+
