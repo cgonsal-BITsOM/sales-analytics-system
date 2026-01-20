@@ -92,8 +92,10 @@ def main():
         _step(3, 10, "Filter Options Available")
         regions, min_amt, max_amt = _available_regions_and_amount_range(parsed)
         regions_line = ", ".join(regions) if regions else "<none>"
+        print("\n")
         print(f"Regions: {regions_line}")
         print(f"Amount Range: {_money(min_amt)} - {_money(max_amt)}")
+        print("\n")
         choice = input("Do you want to filter data? (y/n): ").strip().lower()
         sel_region = None; sel_min = None; sel_max = None
         if choice == 'y':
