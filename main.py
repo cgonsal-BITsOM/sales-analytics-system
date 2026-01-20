@@ -61,9 +61,9 @@ def _available_regions_and_amount_range(parsed: List[Dict[str, Any]]):
     return regions, min_amt, max_amt
 
 def _banner():
-    print("="*40)
-    print("SALES ANALYTICS SYSTEM")
-    print("="*40)
+    print("="*100)
+    print("          ************************ SALES ANALYTICS SYSTEM ************************")
+    print("="*100)
 
 def _step(i: int, n: int, text: str):
     print(f"[{i}/{n}] {text}...")
